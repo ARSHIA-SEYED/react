@@ -7,10 +7,15 @@
     <title>React App</title>
   </head>
   <body>
+    <div id="myDiv"></div>
     
     
     <script src="assets/js/react.js" crossorigin></script> 
     <script src="assets/js/react-dom.js" crossorigin></script>
     <script src="assets/js/bable.js"></script>
+
+    <script type="text/babel">
+      ReactDom.render(<h1>سلام دوست من</h1> ,document.getElementById("myDiv"))
+    </script>
   </body>
 </html>
