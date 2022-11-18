@@ -74,7 +74,7 @@ this.setState({
       <span className="action-button start-burtton" onClick={this.startInterval}>start</span>
       <span className="action-button start-burtton" onClick={this.stopInterval}>stop</span>
       <span className="action-button start-burtton" onClick={this.resetInterval}>reset</span>
-      <span className="action-button start-burtton" onClick={this.props.handleSetTitle}>test</span>
+      <span className="action-button start-burtton" onClick={this.props.handleSetIslight} style={{background:this.props.islight ? "black" : "white" , color:this.props.islight ? "white" : "black"}}>{this.props.islight ? "dark" : "light"}</span>
       </div> 
       </>
       )
