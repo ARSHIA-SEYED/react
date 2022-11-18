@@ -74,6 +74,7 @@ this.setState({
       <span className="action-button start-burtton" onClick={this.startInterval}>start</span>
       <span className="action-button start-burtton" onClick={this.stopInterval}>stop</span>
       <span className="action-button start-burtton" onClick={this.resetInterval}>reset</span>
+      <span className="action-button start-burtton" onClick={this.props.handleSetTitle}>test</span>
       </div> 
       </>
       )
